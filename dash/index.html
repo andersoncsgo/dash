@@ -5,7 +5,16 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .small-chart {
+            max-width: 300px;
+            max-height: 300px;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <div class="icon-container">
@@ -37,16 +46,28 @@
         
         <div class="content">
             <div class="titulo">
-               
+                <h4>LABORATÓRIO_DE_EDUC_PROF</h4>
             </div>
+            <canvas id="grafico1" class="small-chart"></canvas>
+            <div class="titulo">
+                <h4>ESFERA_DE_ENSINO</h4>
+            </div>
+            <canvas id="grafico2" class="small-chart"></canvas>
+            <div class="titulo">
+                <h4>LABORATÓRIO_DE_CIÊNCIAS</h4>
+            </div>
+            <canvas id="grafico3" class="small-chart"></canvas>
+            <div class="titulo">
+                <h4>LABORATÓRIO_DE_INFORMÁTICA</h4>
+            </div>
+            <canvas id="grafico4" class="small-chart"></canvas>
+            <div class="titulo">
+                <h4>REGIÃO_GEOGRÁFICA</h4>
+            </div>
+            <canvas id="grafico5" class="small-chart"></canvas>
         </div>
     </div>
 
-    <script>
-        function selectOption(option) {
-            console.log("Opção selecionada:", option);
-           
-        }
-    </script>
+    <script src="dashboard.js"></script>
 </body>
 </html>
