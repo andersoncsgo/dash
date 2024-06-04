@@ -115,3 +115,8 @@ header {
     color: #333;
     line-height: 1.5;
 }
+
+.resumo-list {
+    list-style-type: disc;
+    margin-left: 20px; 
+}
