@@ -32,12 +32,27 @@
             margin-left: 10px;
             margin-bottom: 20px; 
         }
+
+      
+        .icon-container a {
+            display: block;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="icon-container">
-        <i class="fas fa-house"></i>
-        <i class="fa-solid fa-file-lines"></i>
+       
+        <a href="index.html">
+            <i class="fas fa-house"></i>
+        </a>
+        <a href="descricao.html">
+            <i class="fa-solid fa-file-lines"></i>
+        </a>
+        <a href="map_page.html">
+            <i class="fas fa-map"></i>
+        </a>
+
     </div>
     
     <div class="container">
@@ -46,17 +61,6 @@
                 <div class="logo">
                     <h2>IntercâmbioLab</h2>
                 </div>
-                <br>
-                <div class="menu">
-                    <br>
-                    <h4 onclick="selectOption('Regiões')">Regiões</h4>
-                    <hr>
-                    <h4 onclick="selectOption('Mapas')">Mapas</h4>
-                    <hr>
-                    <h4 onclick="selectOption('Cidades')">Cidades</h4>
-                    <hr>
-                    <h4 onclick="selectOption('Escolas')">Escolas</h4>
-                </div>
             </div>
         </header>
         
@@ -64,19 +68,19 @@
             <div class="chart-row">
                 <div class="chart-column">
                     <div class="titulo">
-                        <h4 style="margin-left: 20px;">LABORATÓRIO_DE_EDUC_PROF</h4>
+                        <h4 style="margin-left: 20px;">LABORATÓRIOS DE EDUCAÇÃO PROFISSIONAL</h4>
                     </div>
                     <canvas id="grafico1" class="small-chart"></canvas>
                 </div>
                 <div class="chart-column">
                     <div class="titulo">
-                        <h4 style="margin-left: 50px;">ESFERA_DE_ENSINO</h4> 
+                        <h4 style="margin-left: 50px;">ESFERAS DE ENSINO</h4> 
                     </div>
                     <canvas id="grafico2" class="small-chart"></canvas>
                 </div>
                 <div class="chart-column">
                     <div class="titulo">
-                        <h4 style="margin-left: 30px;">LABORATÓRIO_DE_CIÊNCIAS</h4> 
+                        <h4 style="margin-left: 30px;">LABORATÓRIOS DE CIÊNCIAS</h4> 
                     </div>
                     <canvas id="grafico3" class="small-chart"></canvas>
                 </div>
@@ -84,13 +88,13 @@
             <div class="chart-row">
                 <div class="chart-column">
                     <div class="titulo">
-                        <h4 style="margin-left: 10px;">LABORATÓRIO_DE_INFORMÁTICA</h4>
+                        <h4 style="margin-left: 10px;">LABORATÓRIOS DE INFORMÁTICA</h4>
                     </div>
                     <canvas id="grafico4" class="small-chart"></canvas>
                 </div>
                 <div class="chart-column">
                     <div class="titulo">
-                        <h4 style="margin-left: 50px;">REGIÃO_GEOGRÁFICA</h4> 
+                        <h4 style="margin-left: 50px;">REGIÃO GEOGRÁFICA</h4> 
                     </div>
                     <canvas id="grafico5" class="small-chart"></canvas>
                 </div>

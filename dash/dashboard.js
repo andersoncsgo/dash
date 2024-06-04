@@ -19,7 +19,7 @@ const data2 = {
     labels: ['Federal', 'Estadual', 'Municipal', 'Privada'],
     datasets: [{
         label: 'Percentual',
-        data: [3, 15.4, 60.1, 24.2],
+        data: [0.3, 15.4, 60.1, 24.2],
         backgroundColor: ['#BA272A', '#08A613', '#F2E205', '#FF9812'],  
         borderColor: ['#BA272A', '#08A613', '#F2E205', '#FF9812'],
         borderWidth: 1
